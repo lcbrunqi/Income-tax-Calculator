@@ -1,0 +1,16 @@
+# initialize the constants
+TAX_RATE = 0.20
+STANDARD_DEDUCTION = 10000.0
+DEPENDENT_DEDUCTION = 3000.0
+
+# REQUEST THE INPUTS 
+GrossIncome = Float(input("Enter the gross income: 150000.00"))
+numDependents = int((input("Enter the number of dependents: 3"))
+
+# compute the income tax
+TaxableIncome = GrossIncome - STANDARD_DEDUCTION - \
+DEPENDENT_DEDUCTION * numDependents
+IncomeTax = TaxableIncome * TAX_RATE
+
+# display the Income Tax
+print(" The income Tax is $' + str(incometax))
