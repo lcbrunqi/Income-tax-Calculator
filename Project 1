@@ -13,4 +13,4 @@ DEPENDENT_DEDUCTION * numDependents
 IncomeTax = TaxableIncome * TAX_RATE
 
 # display the Income Tax
-print(" The income Tax is $' + str(incometax))
+print(" The income Tax is $ 26200.0 + str(incometax))
